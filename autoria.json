@@ -1,0 +1,26 @@
+{
+  "declaracao": "Órbita, criado por Dionatan R. de Almeida, versão 1.0.0, 20/10/2026",
+  "autor": "Dionatan R. de Almeida",
+  "versao": "1.0.0",
+  "data": "2026-10-20",
+  "algoritmo": "ECDSA P-256 / SHA-256",
+  "formatoAssinatura": "IEEE P1363 (r||s, 64 bytes) — formato do Web Crypto (crypto.subtle.verify)",
+  "codificacaoMensagem": "UTF-8, exatamente o texto de 'declaracao'",
+  "assinatura": "PWZl0o1r8zyw0qgJefcuzL/ieyl64oqnamVjnWje0cOpucCxU0He9kQSahW5tawpmQgNEAWXq1lsN1HiGefVqw==",
+  "chavePublica": {
+    "jwk": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "1MtahS6qj6E0bgQ1XPwvRjeBb07B9ihthLZvRuV9xz8",
+      "y": "LDSTKmECEbGjVBDa0VzpRcdpL7x7b_-7DSFfiG9Pzbs",
+      "ext": true,
+      "key_ops": [
+        "verify"
+      ]
+    },
+    "spkiBase64": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1MtahS6qj6E0bgQ1XPwvRjeBb07B9ihthLZvRuV9xz8sNJMqYQIRsaNUENrRXOlFx2kvvHtv/7sNIV+Ib0/Nuw==",
+    "pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1MtahS6qj6E0bgQ1XPwvRjeBb07B\n9ihthLZvRuV9xz8sNJMqYQIRsaNUENrRXOlFx2kvvHtv/7sNIV+Ib0/Nuw==\n-----END PUBLIC KEY-----\n"
+  },
+  "sha256Declaracao": "a194474accd714ab65fae8f6f2bd20a87333d1b6d547c1682602504046a5be9a",
+  "carimboTempo": "OpenTimestamps: /autoria.json.ots (prova de existência de autoria.json) — confirme com 'ots verify autoria.json.ots'"
+}
